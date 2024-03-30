@@ -1,0 +1,12 @@
+{
+  "label": "Nouveaux étudiants",
+  "position": 1,
+  "collapsible": true,
+
+  "link": {
+    "type": "generated-index",
+    "title": "Nouveaux étudiants",
+    "description": "5 minutes to learn the most important Docusaurus concepts."
+  }
+}
+ 
