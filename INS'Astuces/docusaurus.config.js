@@ -67,13 +67,25 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
+            type: 'dropdown',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+            items: [
+              {
+                label: 'Linkedin',
+                href: 'https://linkedin.com/',
+              },
+              {
+                type: 'doc',
+                label: 'Tuto',
+                docId: 'intro', 
+              }
+            ]
+
           },
-          {to: '/docs/category/associations/', label: 'Assos', position: 'left'},
-          {to: '/docs/insa/nouveaux-étudiants/', label: 'Futur Etudiant', position: 'left'},
+          {to: '/docs/category/associations-1/', label: 'Assos', position: 'left'},
+          {to: '/docs/category/nouveaux-étudiants-1', label: 'Futur Etudiant', position: 'left'},
           {
             to: 'https://insash.fr', //change to to href to displa an icon 'open in a new tab'
             label: './insa.sh',
@@ -123,13 +135,13 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Signaler un problème',
+                to: 'https://github.com/BillyTheSecond/INSAstuces/issues/new/choose',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Made and hosted with love by <b>./insa.sh</b> - INS'Astuces HdF`,
       },
       prism: {
         theme: prismThemes.github,

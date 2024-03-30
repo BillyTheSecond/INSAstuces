@@ -19,8 +19,13 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/category/nouveaux-étudiants-1">
             Futur étudiant? - Prépare ta rentrée !
+          </Link>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/insa/informatique">
+            Les outils de L'INSA
           </Link>
         </div>
       </div>
