@@ -22,6 +22,7 @@ function HomepageHeader() {
             to="/docs/category/nouveaux-étudiants-1">
             Futur étudiant? - Prépare ta rentrée !
           </Link>
+          <div style={{ padding: '10px' }}></div>
           <Link
             className="button button--secondary button--lg"
             to="/docs/insa/informatique">
