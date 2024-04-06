@@ -1,0 +1,13 @@
+{
+  "label": "Nouveaux étudiants",
+  "position": 1,
+  "collapsible": true,
+  "slug": "new-students",
+  
+  "link": {
+    "type": "generated-index",
+    "title": "Nouveaux étudiants",
+    "description": "Le guide du nouvel étudiant"
+  }
+}
+ 
