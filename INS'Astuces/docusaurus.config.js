@@ -31,7 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'fr',
-    locales: ['fr'],
+    locales: ['fr','en'],
   },
 
   presets: [
@@ -132,8 +132,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'A propos de ce site',
+                to: '/about',
               },
               {
                 label: 'Signaler un problème',
@@ -148,6 +148,12 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
+      },
+  
     }),
 };
 
