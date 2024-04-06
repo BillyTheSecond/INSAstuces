@@ -40,6 +40,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -58,7 +59,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo.svg',
       navbar: {
         title: 'INS\'Astuces HdF',
         logo: {
@@ -84,8 +85,8 @@ const config = {
             ]
 
           },
-          {to: '/docs/category/associations-1/', label: 'Assos', position: 'left'},
-          {to: '/docs/category/nouveaux-étudiants-1', label: 'Futur Etudiant', position: 'left'},
+          {to: '/category/associations-1/', label: 'Assos', position: 'left'},
+          {to: '/category/nouveaux-étudiants-1', label: 'Futur Etudiant', position: 'left'},
           {
             to: 'https://insash.fr', //change to to href to displa an icon 'open in a new tab'
             label: './insa.sh',
@@ -106,7 +107,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/intro',
               },
             ],
           },
