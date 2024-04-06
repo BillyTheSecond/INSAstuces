@@ -6,10 +6,17 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+// math modules
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
+
+
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'INS\'Astuces HdF',
-  tagline: 'Le site pour les étudiants de l\'INSA Hauts-de-France',
+  tagline: 'Le site pour les étudiants ingénieurs de l\'INSA Hauts-de-France',
   favicon: 'img/logo.svg',
 
   // Set the production url of your site here
@@ -42,6 +49,9 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -52,7 +62,9 @@ const config = {
           customCss: './src/css/custom.css',
         },
       }),
+      
     ],
+    
   ],
 
   themeConfig:
@@ -155,6 +167,17 @@ const config = {
       },
   
     }),
+    stylesheets: [
+      // feuilles de styles pour latex -> supprime le doublon en version texte des equations latex (katex)
+      {
+        href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+        type: 'text/css',
+        integrity:
+          'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+        crossorigin: 'anonymous',
+      },
+    ],
+  
 };
 
 export default config;

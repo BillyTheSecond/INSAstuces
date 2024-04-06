@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #ad868f;
+  --ifm-color-primary: #de7f92;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -33,7 +33,9 @@
 
 /* added by me */
 
-
+* {
+  scroll-behavior: smooth;
+}
 /* style figcaptions */
 figcaption {
   padding: 8px 16px;

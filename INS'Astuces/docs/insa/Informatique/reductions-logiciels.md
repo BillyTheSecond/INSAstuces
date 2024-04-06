@@ -2,8 +2,9 @@
 title: 💰Réductions étudiantes
 description: Retrouve ici toutes les meilleures réductions pour les étudiants sur les sites web et les logiciels 
 tags:
-- Tarif étudiants
+- Tarifs étudiants
 - Logiciels
+- informatique
 sidebar_position: 2
 
 ---

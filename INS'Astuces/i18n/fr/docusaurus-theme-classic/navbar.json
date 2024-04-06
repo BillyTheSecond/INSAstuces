@@ -1,0 +1,38 @@
+{
+  "title": {
+    "message": "INS'Astuces HdF",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo INS'Astuces",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.Assos": {
+    "message": "Assos",
+    "description": "Navbar item with label Assos"
+  },
+  "item.label.Futur Etudiant": {
+    "message": "Futur Etudiant",
+    "description": "Navbar item with label Futur Etudiant"
+  },
+  "item.label../insa.sh": {
+    "message": "./insa.sh",
+    "description": "Navbar item with label ./insa.sh"
+  },
+  "item.label.BDE": {
+    "message": "BDE",
+    "description": "Navbar item with label BDE"
+  },
+  "item.label.Linkedin": {
+    "message": "Linkedin",
+    "description": "Navbar item with label Linkedin"
+  },
+  "item.label.Tuto": {
+    "message": "Tuto",
+    "description": "Navbar item with label Tuto"
+  }
+}

@@ -11,9 +11,12 @@ sidebar_position: 1
 ## Plan du campus - Mont-Houy
 <figure>
 
-![Alt Text](/img/insa/plan-du-campus.svg)
+![Alt Text](/img/insa/plan-du-campus.png)
 <figcaption>Plan du Campus Mont-Houy</figcaption>
 </figure>
+
+## Centre de santé
+à la MSE (Maison de la Santé Etudiante)
 
 ## Lieux de vie
 - Le KAWA
