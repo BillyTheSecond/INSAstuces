@@ -82,31 +82,37 @@ const config = {
           src: 'img/logos/logo2.svg',
         },
         items: [
+
           {
             type:"dropdown",
-            sidebarId: 'docsSidebar',
+            sidebarId: 'newStudentSidebar',
             position: 'left',
             label: 'Futur étudiant',
+            to: '/futur-etudiant/',
             items: [
               {
                 label: '🗺️ Plan du campus & Repères',
-                to: '/' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
+                to: '/futur-etudiant/plan-du-campus' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
               },
               {
                 label: '🏠 Logement',
-                to: '/'
+                to: '/futur-etudiant/logement'
               },
               {
                 label: '🚍 Transports',
-                to: '/'
+                to: 'futur-etudiant/transports'
+              },
+              {
+                label: '🤹 Ton Futur camarade de promo',
+                to: '/futur-etudiant/trouve-un-camarade'
               },
               {
                 label: '📚 Starter Packs',
-                to: '/'
+                to: '/futur-etudiant/starter-packs'
               },
               {
                 label: '📝 Admissions',
-                to: '/'
+                to: '/futur-etudiant/admissions'
               },
             ]
 
@@ -119,8 +125,13 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            to: 'https://insash.fr',
+            label: './insa.sh',
+            position: 'right',
+          },
+          {
+            to: 'https://bde-insa-hdf.fr',
+            label: 'BDE',
             position: 'right',
           },
         ],
@@ -133,7 +144,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/',
               },
             ],
           },
@@ -155,20 +166,45 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'A propos de ce site',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'CLUB INFO - ./insa.sh',
+                href: 'https://insash.fr',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/billyTheSecond/INSAstuces',
+              },
+              {
+                label: 'A propos de ce site',
+                to: '/',
+              },
+            ],
+          },
+          {
+            title: 'L\'école',
+            items: [
+              {
+                label: 'INSA Hauts-de-France',
+                href: 'https://www.insa-hautsdefrance.fr/',
+              },
+              {
+                label: 'INS\'Alumnis HdF',
+                href: 'http://insalumni.insash.fr',
+              },
+              {
+                label: 'Groupe INSA',
+                href: 'https://www.groupe-insa.fr/',
+              },
+              {
+                label: 'Fondation INSA',
+                href: 'https://fondation.groupe-insa.fr/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Développé et maintenu avec amour par <b><a href='https://insash.fr'>./insa.sh</a></b> – INS'Astuces Hauts-de-France © ${new Date().getFullYear()} ` ,
       },
       prism: {
         theme: prismThemes.github,
