@@ -4,7 +4,7 @@ description: Des liens utiles pour trouver un contact dans ta future promo
 tags:
 - contact
 - Nouvel étudiant
-sidebar_position: 4
+sidebar_position: 5
 date: 2024-04-06
 ---
 

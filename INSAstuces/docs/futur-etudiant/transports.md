@@ -4,7 +4,7 @@ description: Comment se déplacer sur Valenciennes et ses alentours
 tags:
 - Transports
 - Nouvel étudiant
-sidebar_position: 3
+sidebar_position: 4
 ---
 # Transports
 <figure>
@@ -51,5 +51,11 @@ La carte de transport est valable dans les zones Valenciennes Métropole et Port
 [Plan du réseau de tram et bus [pdf]](https://storage.googleapis.com/is-wp-14-preprod/uploads-preprod/2023/03/Plan-reseau0323.pdf)
 
 ## Le vélo
+
+## Itinéraires courants
+- Se rendre sur Lille
+- Se rendre à l'aéroport
+- Se rendre à Bruxelles
+- Se rendre à Paris
 
 

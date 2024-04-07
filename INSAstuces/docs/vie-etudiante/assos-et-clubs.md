@@ -1,6 +1,6 @@
 ---
-sidebar_label: 'Liste des assocations'
-sidebar_position: 1
+sidebar_label: '🌳 Assos et Clubs'
+sidebar_position: 3
 ---
 
 

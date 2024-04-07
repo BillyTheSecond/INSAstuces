@@ -1,10 +1,13 @@
 ---
-title: 📝 Admissions
-description: Procesus d'admission à l'INSA Hauts-de-France
-tags:
-- Admissions
-- Nouvel étudiant
-sidebar_position: 5
-date: 2024-04-06
+title: 'Admissions'
+sidebar_label: '📝 Admissions'
+sidebar_position: 6
+description: Tous les détails concernant les admissions à l'INSA Hauts-de-France
 ---
+> Retrouve ici tous les détails sur les admissions et des contacts si tu souhaites avoir plus d'informations.
 
+## Admissions en 1A - Parcoursup
+
+## Admissions en 2A
+
+## Admissions en 3A - SCEI

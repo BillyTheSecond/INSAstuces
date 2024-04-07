@@ -1,12 +1,10 @@
 {
-  "collapsed": true,
   "label": "Nouveaux étudiants",
   "position": 1,
-  
+  "collapsible": true,
+
   "link": {
     "type": "doc",
     "id": "futur-etudiant/index"
   }
 }
- 
-

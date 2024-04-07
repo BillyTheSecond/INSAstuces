@@ -88,41 +88,88 @@ const config = {
             sidebarId: 'newStudentSidebar',
             position: 'left',
             label: 'Futur étudiant',
-            to: '/futur-etudiant/',
+            to: 'futur-etudiant',
             items: [
               {
                 label: '🗺️ Plan du campus & Repères',
-                to: '/futur-etudiant/plan-du-campus' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
+                to: 'futur-etudiant/plan-du-campus' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
               },
               {
                 label: '🏠 Logement',
-                to: '/futur-etudiant/logement'
+                to: 'futur-etudiant/logement'
               },
               {
                 label: '🚍 Transports',
                 to: 'futur-etudiant/transports'
               },
               {
-                label: '🤹 Ton Futur camarade de promo',
-                to: '/futur-etudiant/trouve-un-camarade'
+                label: '😎 Ton Futur camarade de promo',
+                to: 'futur-etudiant/trouve-un-camarade'
               },
               {
                 label: '📚 Starter Packs',
-                to: '/futur-etudiant/starter-packs'
+                to: 'futur-etudiant/starter-packs'
               },
               {
                 label: '📝 Admissions',
-                to: '/futur-etudiant/admissions'
+                to: 'futur-etudiant/admissions'
               },
             ]
 
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            type:"dropdown",
+            sidebarId: 'vieEtudianteSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Vie étudiante',
+            to: '/vie-etudiante/',
+            items: [
+              {
+                label: 'Le BDE',
+                to: 'vie-etudiante/bde' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
+              },
+              {
+                label: 'Assos et Clubs',
+                to: 'vie-etudiante/assos-et-clubs'
+              },
+              {
+                label: 'Les évènements',
+                to: 'vie-etudiante/evenements'
+              },
+
+            ]
+
           },
+          {
+            type:"dropdown",
+            sidebarId: 'InformatiqueSidebar',
+            position: 'left',
+            label: 'Ressources et astuces',
+            to: '/informatique/',
+            items: [
+              {
+                label: 'L\'ENT',
+                to: 'informatique/ent' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
+              },
+              {
+                label: '💰 Remises étudiantes',
+                to: 'Informatique/reductions-logiciels'
+              },
+              {
+                label: 'Les évènements',
+                to: 'vie-etudiante/evenements'
+              },
+
+            ]
+
+          },
+
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'Tutorial',
+          // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             to: 'https://insash.fr',
@@ -180,6 +227,10 @@ const config = {
                 label: 'A propos de ce site',
                 to: '/',
               },
+              {
+                label: 'Plan du site',
+                to: '/',
+              }
             ],
           },
           {

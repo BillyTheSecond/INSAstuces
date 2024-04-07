@@ -5,7 +5,7 @@ tags:
 - Logement
 - Mont-Houy
 - Nouvel étudiant
-sidebar_position: 2
+sidebar_position: 3
 date: 2021-08-31
 ---
 
@@ -24,9 +24,18 @@ date: 2021-08-31
 
 ## Résidences privées
 
-## Sites pratiques
+## Liens pratiques
 
+- [CROUS](https://trouverunlogement.lescrous.fr/) - Les logements du Crous
+- [Le bon coin](https://www.leboncoin.fr/)
+- [Studapart UPHF](https://uphf.studapart.com/fr/)
+- [Jinka](https://www.jinka.fr/) - Une application qui regroupe plusieurs sites de location
 
+## Aides au logement
+
+### Les APL
+
+### Les aides du Crous
 
 
 test

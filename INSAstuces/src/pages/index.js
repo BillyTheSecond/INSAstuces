@@ -19,10 +19,11 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/">
-            Docusaurus Tutorial - 5min ⏱️
+            to="futur-etudiant">
+            Futur étudiant? - Prépare ta rentrée!
           </Link>
         </div>
+
       </div>
     </header>
   );
