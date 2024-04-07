@@ -17,10 +17,17 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
+        <Link
+            className="button button--secondary button--lg"
+            to="futur-etudiant">
+            Futur étudiant?
+            <br/>Prépare ta rentrée!
+          </Link>
           <Link
             className="button button--secondary button--lg"
             to="futur-etudiant">
-            Futur étudiant? - Prépare ta rentrée!
+            Découvre la
+            <br/>vie étudiante
           </Link>
         </div>
 

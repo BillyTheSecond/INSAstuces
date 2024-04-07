@@ -13,7 +13,7 @@ sidebar_position: 2
 ## Plan du campus - Mont-Houy
 <figure>
 
-![Plan du campus](/img/campus/plan-du-campus.png)
+![Plan du campus](/img/campus/plan-du-campus-vue-nord.png)
 <figcaption>Plan du Campus Mont-Houy</figcaption>
 </figure>
 

@@ -74,7 +74,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logos/logo2.svg',
       navbar: {
         title: 'INS\'Astuces HdF',
         logo: {
@@ -142,7 +142,7 @@ const config = {
           },
           {
             type:"dropdown",
-            sidebarId: 'InformatiqueSidebar',
+            sidebarId: 'informatiqueSidebar',
             position: 'left',
             label: 'Ressources et astuces',
             to: '/informatique/',
@@ -153,7 +153,7 @@ const config = {
               },
               {
                 label: '💰 Remises étudiantes',
-                to: 'Informatique/reductions-logiciels'
+                to: 'informatique/reductions-logiciels'
               },
               {
                 label: 'Les évènements',
@@ -187,11 +187,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Liens rapides',
             items: [
               {
-                label: 'Tutorial',
-                to: '/',
+                label: 'Futur étudiant',
+                to: 'futur-etudiant',
+              },
+              {
+                label: 'Vie étudiante',
+                to: 'vie-etudiante',
+              },
+              {
+                label: 'Ressources informatiques',
+                to: 'informatique',
+              },
+              {
+                label: 'Administratif',
+                to: 'administratif/administration',
               },
             ],
           },
@@ -223,6 +235,11 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/billyTheSecond/INSAstuces',
               },
+              {
+                label: 'Suggérer une modification',
+                href: 'https://discord.gg/insash',
+              },
+
               {
                 label: 'A propos de ce site',
                 to: '/',
