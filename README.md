@@ -1,7 +1,12 @@
 # INS'Astuces HdF
-> L'objectif est de créer un site web simple maintenu par les étudiants pour les étudiants ingénieurs de l'INSA Hauts-de-France qui répertoriera toutes les informations importantes à savoir pour leur scolarité et leur vie étudiante.
+_L'objectif est de créer un site web simple maintenu par les étudiants pour les étudiants ingénieurs de l'INSA Hauts-de-France qui répertoriera toutes les informations importantes à savoir pour leur scolarité et leur vie étudiante._
 
+<br>
 
+> **Note :**<br>
+> Le site n'est pas accessible à tous pour le moment
+
+<br>
 
 Les premiers contenus de ce site seront:
 - Un guide pour les futurs étudiants
