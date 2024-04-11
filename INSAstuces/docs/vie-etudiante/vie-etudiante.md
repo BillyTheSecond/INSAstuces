@@ -7,7 +7,8 @@ sidebar_position: 1
 
 
 > _C'est l'INSA Hauts-de-France, <br/>
-> C'est l'INSA de l'Ambiance!_ 
+> C'est l'INSA de l'Ambiance!_ <br/>
+> [Bureau de l'Ambiance - @barry_le_caribou](https://www.instagram.com/barry_le_caribou/)
 
 Venir à l'INSA pour ne faire que travailler? Quelle idée! 
 

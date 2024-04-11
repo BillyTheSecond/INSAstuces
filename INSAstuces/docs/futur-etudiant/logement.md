@@ -16,8 +16,10 @@ date: 2021-08-31
 
 
 ## Les résidences du CROUS
+Plusieurs résidences du CROUS sont situées à proximité du Campus Hont-Houy. 
 - Jules Mousseron
 - Jules Marmottan
+- 
 
 ## Collocations
 
@@ -38,4 +40,3 @@ date: 2021-08-31
 ### Les aides du Crous
 
 
-test

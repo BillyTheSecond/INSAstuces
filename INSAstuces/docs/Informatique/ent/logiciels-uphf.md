@@ -1,5 +1,5 @@
 ---
-sidebar_label: "Logiciels mis-à-disposition par l'UPHF"
+sidebar_label: "Services mis-à-disposition par l'UPHF"
 sidebar_position: 1
 description: "Liste des sites mis à disposition des étudiants et des chercherus par l'UPHF"
 tags: [Logiciels]
@@ -34,6 +34,9 @@ L'UPHF n'offre pas de licence Microsoft 365 aux étudiants. Cependant, il est po
 
 ## Design
 - [Draw.io](https://draw.uphf.fr/) - Création de diagrammes et de schémas
+
+## Vie étudiante
+- [La Billetterie](https://billetterie.uphf.fr/) - Tarifs réduits de cinéma, patinoire, piscine, bowling... Réservation de places pour les événements culturels
 
 ## Sondages et outils interactifs
 - [Wooclap](https://app.wooclap.com/api/auth/saml/uphf.fr-3bd13301/login?RelayState=%2Fhome) - Création de sondages interactifs

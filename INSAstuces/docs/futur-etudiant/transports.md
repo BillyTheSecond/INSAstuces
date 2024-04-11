@@ -20,7 +20,7 @@ Le tram dessert le campus du Mont-Houy.
 Les principaux arrêts sont:
 - **Université** (terminus) : Résidence du CROUS Jules Matteron, Les 7 Muids
 - **Moriamez Recherche** : Devant le bâtiment CLJ1 et Lottman
-- **Campus Mont-Houy** : MSE (Maison des Services Etudiants - Centre de Santé)
+- **Campus Mont-Houy** : MSE (Maison des Services à l'Etudiant - Centre de Santé - Billetterie)
 - **Chemin Vert** : Aulnoy-Les-Valenciennes, Résidence du CROUS Jules Mousseron, UXCO, All Suites Study, Action, O'terra...
 - **Jules Chevalier** : Carrefour
 - **La Briquette** : Lidl
