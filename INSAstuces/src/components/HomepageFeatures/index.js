@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Facile à utiliser',
+    Svg: require('@site/static/img/logos/logo2.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Ce site a été créé pour faciliter la vie des étudiants de l'INSA Hauts-de-France
       </>
     ),
   },

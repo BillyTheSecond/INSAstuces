@@ -1,0 +1,40 @@
+---
+sidebar_label: '🌳 Assos et Clubs'
+sidebar_position: 3
+---
+{/* // import clsx from 'clsx'; */}
+
+{/* // import Docs from '@site/src/components/Docs'; */}
+{/* <Balisetest color="#25c2a0">Docusaurus vert</Balisetest> et <Balisetest color="#1877F2">Facebook bleu</Balisetest> sont mes couleurs préférées. */}
+
+
+# Liste des associations de l'INSA HdF
+
+Retrouvez ici la liste des associations de l'INSA Hauts-de-France. 
+
+export const AssociationPreview = ({asso_name, asso_logo,asso_type,asso_description}) => (
+    <div
+      style={{
+        backgroundColor: "#AAAAAA20",
+        borderRadius: '2px',
+        padding: '0.2rem',
+      }}>
+      <img
+        src={asso_logo}
+        alt={asso_name}
+        style={{
+          width: '100%',
+          height: 'auto',
+          borderRadius: '2px',
+        }}
+      />
+      <>
+        <h3>{asso_name}</h3>
+        <p>{asso_type}</p>
+        <p>{asso_description}</p>
+        </>
+    </div>
+  );
+
+<AssociationPreview asso_name="./insa.sh" asso_logo="/img/assos/logo-insash.png" asso_type="Club" asso_description="Le Club Info de l'INSA HdF"></AssociationPreview>
+<AssociationPreview asso_name="Coeur'ibou" asso_logo="/img/assos/logo-coeuribou.jpg" asso_type="Asso" asso_description="L'association humanitaire"></AssociationPreview>
