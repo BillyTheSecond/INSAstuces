@@ -1,5 +1,5 @@
 ---
-title: Bien commencer son année à l'INSA HdF
+title: Starter Packs - Comment bien démarrer l'année
 description: "Cours, méthodes de travail... Retrouvez ici toutes les informations pour bien commencer votre année à l'INSA Hauts-de-France."
 tags:
 - Nouvel étudiant
@@ -7,6 +7,7 @@ tags:
 ---
 import DocCardList from '@theme/DocCardList';
 
+## Fonctionnement des cours
 
 ## Bien démarrer l'année à l'INSA Hauts-de-France
 <figure>

@@ -237,7 +237,7 @@ const config = {
               },
               {
                 label: 'Suggérer une modification',
-                href: 'https://discord.gg/insash',
+                href: 'https://github.com/billyTheSecond/INSAstuces/issues/new',
               },
 
               {

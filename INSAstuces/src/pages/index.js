@@ -40,8 +40,10 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Guide de vie à l'INSA Hauts-de-France`}
+      description="Le site pour les étudiants ingénieurs de l'INSA Hauts-de-France
+
+      ">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

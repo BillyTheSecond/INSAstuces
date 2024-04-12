@@ -6,3 +6,6 @@ description: "Tu y retrouveras toutes les informations importantes pour ta scola
 
 # L'ENT de l'UPHF
 
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />

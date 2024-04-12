@@ -14,6 +14,7 @@ sidebar_position: 2
 ## 1. Offres gratuites
 - [GitHub for Education](https://education.github.com/pack) - Une infinité d'outils gratuits pour les étudiants incluant Copilot, l'IA générative inégrée aux IDE
 - [MatLab avec l'UPHF](https://www.uphf.fr/wiki/doku.php/outils/recherche/matlab)
+- [Figma pour l'éducation](https://www.figma.com/fr/education/) - Outil de design collaboratif
 
 
 ## 2. Réductions
