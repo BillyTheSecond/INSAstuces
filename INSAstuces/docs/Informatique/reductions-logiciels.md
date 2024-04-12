@@ -4,7 +4,7 @@ description: Retrouve ici toutes les meilleures réductions pour les étudiants 
 tags:
 - Tarifs étudiants
 - Logiciels
-- informatique
+- Informatique
 sidebar_position: 2
 
 ---

@@ -22,7 +22,7 @@ Les cours de l'INSA Hauts-de-France ne se déroulent pas dans tous les bâtiment
 
 
 
-## Centre de santé
+## Centre de santé 💊
 Le Centre de santé est situé **à l'intérieur de la MSE** (Maison des Services à l'Etudiant) à l'arrêt de tram "Campus Mont-Houy". Il accueille les étudiants sur les différents campus, **sans avance de frais**.
 
 Sur place, vous pouvez prendre des consultations pour:
@@ -66,16 +66,17 @@ Pour les étudiants internationaux, il faut fournir la **carte européenne d'ass
 
 ## Lieux de vie
 
-### Le KAWA
+### Le KAWA ☕
 Durant tes années à l'INSA, tu ne pourras pas passer à côté du KAWA ! C'est **le café étudiant de l'INSA Hauts-de-France**. Il est situé dans le **bâtiment CLJ1**. Le KAWA est une association à part entière qui est maintenue par les étudiants. Tu pourras y trouver des boissons chaudes, des boissons fraîches, des snacks et des plats chauds.
 
-<figure>
+<!-- <figure>
 
 ![Photo du KAWA](/img/insa/equipe-kawa.jpg)
 <figcaption>L'équipe du KAWA est prête à t'accueillir en CLJ1 !</figcaption>
 </figure>
+-->
 
-## Restauration
+## Restauration 🍝
 
 Plusieurs restaurants universitaires sont situés à l'intérieur du Campus Mont-Houy.
 
@@ -87,34 +88,36 @@ Les Restaurants Universitéaires sont ouverts en semaine de 11h15 à 13h30
 
 
 ### Le RU1 (Arrêt Campus Mont-Houy):
-<figure>
+<!-- <figure>
 
 ![Restaurant Universitaire Mont-Houy 1](/img/insa/monthouy-ru1.jpg)
 <figcaption>Restaurant Universitaire Mont-Houy 1</figcaption>
-</figure>
+</figure> -->
   
 C'est le plus grand Restaurant Universitaire du Campus
 
 ### Le RU2 (En face du bâtiment AB2):
 
-<figure>
+<!-- <figure>
 
 ![Restaurant Universitaire Mont-Houy 2](/img/insa/monthouy-ru2.png)
 <figcaption>Restaurant Universitaire Mont-Houy 2</figcaption>
-</figure>  
+</figure>  -->
 
 Celui-ci est plus petit mais quand même très fréquenté. Il est aussi plus convivial
 
-### Les cafétérias
+### Les 4 cafétérias
   - Cafét RU2
   - Cafét RU1
   - Cafet Matisse
+  - Cafét Résidence Jules Mousseron
 
 
 
 
-## Lieux de travail
-- La BU
-- Les salles de cours
-- Les salles de TP en libre accès
-- 
+## Lieux de travail 📚
+Travailler en groupe ou dans le calme? Pas de soucis! La **BU du Mont-Houy** est là pour toi! Tu y trouveras de **grandes salles de travail** et tu pourras aussi **réserver des salles de travail de groupe** sur l'application Affluences.
+
+Les salles de travail de groupe sont dotées de tables, chaises et d'un écran connecté en Wi-Fi pour la projection. Certaines salles sont **insonorisées** donc parfaites pour passer des visioconférences.
+
+Si tu souhaites travailler ailleurs, tu peux aussi t'installer **dans des salles de cours non-occupées** ou dans les **salles informatiques en CLJ-1**, qui sont en **libre accès**.

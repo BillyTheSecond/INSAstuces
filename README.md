@@ -1,4 +1,8 @@
-# INS'Astuces HdF
+![GitHub Badge juste pour faire beau](https://img.shields.io/badge/INS'Astuces-HdF-pink?style=for-the-badge&logo=github&logoColor=white) 
+![Nombre total de Commits GitHub](https://img.shields.io/github/commit-activity/t/billyTheSecond/INSAstuces?style=for-the-badge)
+![Nombre d'issues ouvertes](https://img.shields.io/github/issues/billyTheSecond/INSAstuces?style=for-the-badge)
+
+# INS'Astuces HdF 
 _L'objectif est de créer un site web simple maintenu par les étudiants pour les étudiants ingénieurs de l'INSA Hauts-de-France qui répertoriera toutes les informations importantes à savoir pour leur scolarité et leur vie étudiante._
 
 <br>
@@ -34,6 +38,36 @@ Les premiers contenus de ce site seront:
 
 
 
+# Je suis une asso, je veux modifier mes infos, ajouter mon asso
+
+Pour modifier les informations - logo - photos - liens associés à ton association sur INS'Astuces, tu peux ouvrir une issue sur ce dépôt en précisant les modifications à apporter. N'hésite pas à joindre en pièce jointe les logos ou images que tu souhaites modifier ou ajouter.
+
+[Ouvrir une issue](https://github.com/billyTheSecond/INSAstuces/issues/new)
+
+> **Note :**<br>
+> Si tu souhaites demander une modification en privé, tu peux contacter directement un des contributeurs du projet.
+
+## Ajouter une nouvelle association
+Pour ajouter une association, c'est la même procédure! Ouvre une issue en précisant les informations à ajouter et les images à joindre. Les responsables du projet INS'Astuces se chargeront de publier les modifications
+
+**Les informations obligatoires sont :**
+- Nom de l'association
+- Logo
+    > **Ratio:** Logo carré <br/>
+    > **Résolution minimale:** 600px x 600px<br/>
+    > **Formats acceptés:** favoriser .svg et .webp  (les autres formats seront convertis en .webp) <br/>
+    > **Note:** Si votre logo a un fond transparent, assurez-vous qu'il soit bine lisible sur un fond noir et un fond blanc (que le logo soit bien adapté aux modes nuit et jour)
+- Statut (club ou asso)
+- Description courte (<= 80 caractères espaces compris) à mettre sur la page [astuces.insahdf.fr/vie-etudiante/assos-et-clubs](https://astuces.insahdf.fr/vie-etudiante/assos-et-clubs)
+- Liens des réseaux à mettre en avant _(conseillé: 2 à 3 liens max)_
+
+    >Par exemple:
+    >- Site internet
+    >- Instagram
+    >- Lien d'invitation Discord
+
+[Ouvrir une issue pour ajouter une association ou un club](https://github.com/billyTheSecond/INSAstuces/issues/new)
+
 
 
 
@@ -58,12 +92,20 @@ Pour développer le site, il est nécessaire d'installer nodeJS. Pour la publica
     npm init docusaurus
 ```
 
-## Lancer le site en local
+## Lancer le site
     
+### Lancer le site en local sur une machine
 ```bash
     npm run start
 ```
+Le site sera accessible à l'adresse [http://localhost:3000](http://localhost:3000)
 
+### Lancer le site sur un réseau local
+
+```bash
+    npm run start -- --port 80 --host 0.0.0.0
+    # En remplaçant 0.0.0.0 par l'adresse IP de la machine
+```
 
 ## Pour déployer le projet
 

@@ -2,7 +2,7 @@
 title: Messagerie UPHF
 description: Toutes les astuces pour gérer tes mails UPHF et INSA 
 tags:
-- mail
+- Mail
 - ENT
 sidebar_position: 2
 
