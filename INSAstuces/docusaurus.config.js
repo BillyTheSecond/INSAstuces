@@ -125,17 +125,22 @@ const config = {
             to: '/vie-etudiante/',
             items: [
               {
-                label: 'Le BDE',
+                label: '🔔 Le BDE',
                 to: 'vie-etudiante/bde' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
               },
               {
-                label: 'Assos et Clubs',
+                label: '🌳 Assos et Clubs',
                 to: 'vie-etudiante/assos-et-clubs'
               },
               {
-                label: 'Les évènements',
+                label: '🗓️ Les évènements',
                 to: 'vie-etudiante/evenements'
               },
+              {
+                label: '🧠 Le Point Culture',
+                to: 'vie-etudiante'
+              },
+
 
             ]
 
@@ -148,18 +153,13 @@ const config = {
             to: '/informatique/',
             items: [
               {
-                label: 'L\'ENT',
+                label: '🧑‍💻 ENT et services informatiques',
                 to: 'informatique/ent' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
               },
               {
                 label: '💰 Remises étudiantes',
                 to: 'informatique/reductions-logiciels'
               },
-              {
-                label: 'Les évènements',
-                to: 'vie-etudiante/evenements'
-              },
-
             ]
 
           },

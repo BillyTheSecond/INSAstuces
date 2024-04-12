@@ -25,7 +25,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="futur-etudiant">
+            to="vie-etudiante">
             Découvre la
             <br/>vie étudiante
           </Link>

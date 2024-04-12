@@ -12,8 +12,8 @@ sidebar_position: 2
 # Logiciels en réduction pour les étudiants
 
 ## 1. Offres gratuites
-- GitHub for Education
-- 
+- [GitHub for Education](https://education.github.com/pack) - Une infinité d'outils gratuits pour les étudiants incluant Copilot, l'IA générative inégrée aux IDE
+- [MatLab avec l'UPHF](https://www.uphf.fr/wiki/doku.php/outils/recherche/matlab)
 
 
 ## 2. Réductions
