@@ -78,13 +78,11 @@ Durant tes années à l'INSA, tu ne pourras pas passer à côté du KAWA ! C'est
 
 ## Restauration 🍝
 
-Plusieurs restaurants universitaires sont situés à l'intérieur du Campus Mont-Houy.
-
 Un repas coûte **3,30€** pour tous les étudiants et **1€ pour les boursiers**. Il est possible de bénéficier de 2 repas au tarif étudiant par jour. Tous les paiements se font par **IZLY**, le système de paiement du Crous. [Comment ça marche ?](https://www.izly.fr/index.html#howitworks)
 
 Pour payer, on peut utiliser un QR Code généré par l'[**application IZLY**](https://www.izly.fr/) ou sa **carte étudiante**.
 
-Les Restaurants Universitéaires sont ouverts en semaine de 11h15 à 13h30
+Plusieurs restaurants universitaires sont situés à l'intérieur du Campus Mont-Houy. Ils sont ouverts en semaine de 11h15 à 13h30
 
 
 ### Le RU1 (Arrêt Campus Mont-Houy):

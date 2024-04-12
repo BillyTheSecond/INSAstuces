@@ -61,7 +61,7 @@ Pour ajouter une association, c'est la même procédure! Ouvre une issue en pré
 - Description courte (<= 80 caractères espaces compris) à mettre sur la page [astuces.insahdf.fr/vie-etudiante/assos-et-clubs](https://astuces.insahdf.fr/vie-etudiante/assos-et-clubs)
 - Liens des réseaux à mettre en avant _(conseillé: 2 à 3 liens max)_
 
-    >Par exemple:
+    > Par exemple:
     >- Site internet
     >- Instagram
     >- Lien d'invitation Discord
@@ -113,3 +113,7 @@ Le site sera accessible à l'adresse [http://localhost:3000](http://localhost:30
 
 -> Copier le contenu du dossier `build` dans le dossier source du site web et le site static sera ok
 
+
+
+
+> Inspirations : [WikiEtud INSA Toulouse](https://wiki.etud.insa-toulouse.fr/)

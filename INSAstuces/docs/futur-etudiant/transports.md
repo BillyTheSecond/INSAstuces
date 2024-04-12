@@ -53,9 +53,30 @@ La carte de transport est valable dans les zones Valenciennes Métropole et Port
 ## Le vélo
 
 ## Itinéraires courants
-- Se rendre sur Lille
-- Se rendre à l'aéroport
-- Se rendre à Bruxelles
-- Se rendre à Paris
+### Se rendre sur Lille
+Temps de trajet : 35 à 45 minutes
 
+- Prendre le **TER** à destination depuis la Gare de Valenciennes de Lille-Flandres (35 min). Il y a des TER presque **toutes les demi-heures**
+
+### Se rendre à l'aéroport
+Temps de trajet : 1h30 au départ de la Gare de Valenciennes
+
+- Prendre le **tram T1/T2** jusqu'à la gare de Valenciennes
+- Prendre le **TER** à destination de Lille-Flandres
+- Prendre la **[Navette Flibco](https://www.flibco.com/fr/shuttle/navette-bus-aeroport-lille-lesquin)** à destination de l'aéroport de Lille-Lesquin (Toutes les demi-heures en semaine)
+
+
+
+### Se rendre à Bruxelles
+Temps de trajet : 🤔 
+
+- Prendre le **tram T1/T2** jusqu'à la gare de Valenciennes
+- Prendre le **TER** à destination de Lille-Flandres
+-  aucune idée
+
+
+### Se rendre à Paris
+Temps de trajet : 🤔 
+
+- Il existe des TGV Valenciennes - Paris Nord
 
