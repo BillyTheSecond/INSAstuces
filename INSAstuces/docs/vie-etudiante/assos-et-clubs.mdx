@@ -12,29 +12,143 @@ sidebar_position: 3
 
 Retrouvez ici la liste des associations de l'INSA Hauts-de-France. 
 
-export const AssociationPreview = ({asso_name, asso_logo,asso_type,asso_description}) => (
-    <div
-      style={{
-        backgroundColor: "#AAAAAA20",
-        borderRadius: '2px',
-        padding: '0.2rem',
-      }}>
-      <img
-        src={asso_logo}
-        alt={asso_name}
-        style={{
-          width: '100%',
-          height: 'auto',
-          borderRadius: '2px',
-        }}
-      />
-      <>
-        <h3>{asso_name}</h3>
-        <p>{asso_type}</p>
-        <p>{asso_description}</p>
-        </>
-    </div>
-  );
 
-<AssociationPreview asso_name="./insa.sh" asso_logo="/img/assos/logo-insash.png" asso_type="Club" asso_description="Le Club Info de l'INSA HdF"></AssociationPreview>
-<AssociationPreview asso_name="Coeur'ibou" asso_logo="/img/assos/logo-coeuribou.jpg" asso_type="Asso" asso_description="L'association humanitaire"></AssociationPreview>
+
+
+{/* Boite d'association */}
+export const AssociationPreview = ({ asso_name, asso_logo, asso_type, asso_description, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin}) => (
+    <div
+        style={{
+            backgroundColor: "#AAAAAA20",
+            borderRadius: '8px',
+            padding: '12px',
+            textAlign: 'center',
+            minWidth: '200px',
+            flex:1,
+        }}>
+        <img
+            src={asso_logo}
+            alt={asso_name}
+            style={{
+                width: '100px',
+                height: 'auto',
+                borderRadius: '200px',
+            }}
+        />
+        <>
+            <h3 style={{
+                fontSize: '1.2em',
+                margin: '0',
+                padding: '0',
+            }}>{asso_name}</h3>
+
+            <p style={{
+                color: '#888',
+                fontSize: '0.8em',
+                textTransform: 'uppercase',
+                padding: '0',
+                marginBottom: '0',
+            }}>{asso_type}</p>
+            <div style={{
+                display: 'flex',
+                flexDirection: 'row',
+                justifyContent: 'center',
+                gap: '1em',
+                alignItems: "center",
+
+            }}>
+                {asso_lien_instagram && (
+                    <a href={asso_lien_instagram}>
+                        <img 
+                        src="/img/icons/instagram.svg"
+                        alt="Lien vers le compte Instagram"
+                        style = {{
+                            width: '1.5em',
+                            height: 'auto',
+                            // margin: '0.5em',
+                            borderRadius:  "0",
+                        }}
+                        />
+                    </a>
+                )}
+
+                {asso_lien_site && (
+                    <a href={asso_lien_site}>
+                        <img 
+                        src="/img/icons/globe-solid.svg"
+                        alt="Lien vers le site web"
+                        style = {{
+                            width: '1.5em',
+                            height: 'auto',
+                            // margin: '0.5em',
+                            borderRadius:  "0",
+                        }}
+                        />
+                    </a>
+                )}
+
+                {asso_lien_discord && (
+                    <a href={asso_lien_discord}>
+                        <img 
+                        src="/img/icons/discord.svg"
+                        alt="Lien vers le serveur Discord"
+                        style = {{
+                            width: '1.5em',
+                            height: 'auto',
+                            // margin: '0.5em',
+                            borderRadius:  "0",
+                        }}
+                        />
+                    </a>
+                )}
+                {asso_lien_linkedin && (
+                    <a href={asso_lien_linkedin}>
+                        <img 
+                        src="/img/icons/linkedin-in.svg"
+                        alt="Lien vers la page Linkedin"
+                        style = {{
+                            width: '1.5em',
+                            height: 'auto',
+                            // margin: '0.5em',
+                            borderRadius:  "0",
+                        }}
+                        />
+                    </a>
+                )}
+
+            </div>
+            <p style={{
+                fontSize: '1em',
+                padding: '0',
+                margin: '0',
+                // marginTop: '1em',
+
+            }}>{asso_description}</p>
+        </>
+
+
+
+    </div>
+);
+
+<div style={{
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'stretch',
+    flexWrap: 'wrap',
+    gap: '20px',
+  }}>
+
+    <AssociationPreview asso_name="./insa.sh" asso_logo="/img/assos/logo-insash.png" asso_type="Club" asso_description="Le Club Info de l'INSA HdF" asso_lien_instagram="https://www.instagram.com/hdf_insa.sh" asso_lien_site="https://insash.fr" asso_lien_linkedin="https://www.linkedin.com/company/insa-sh/"></AssociationPreview>
+    <AssociationPreview asso_name="Coeur'ibou" asso_logo="/img/assos/logo-coeuribou.jpg" asso_type="Asso" asso_description="L'association humanitaire" asso_lien_instagram="https://www.instagram.com/coeuribou/" asso_lien_linkedin="https://www.linkedin.com/in/cœuribou-insahdf-2748b1263"></AssociationPreview>
+    <AssociationPreview asso_name="Kawa" asso_logo="/img/assos/logo-kawa.png" asso_type="Asso" asso_description="Le café-cafet de l'INSA" asso_lien_instagram="https://www.instagram.com/kawa_insahdf/"></AssociationPreview>
+    <AssociationPreview asso_name="GR'INSA" asso_logo="/img/assos/logo-grinsa.webp" asso_type="Asso" asso_description="L'asso verte" asso_lien_instagram="https://www.instagram.com/grinsa_hdf/" asso_lien_site="https://grinsa.fr" ></AssociationPreview>
+    <AssociationPreview asso_name="JINNOV" asso_logo="/img/assos/logo-jinnov.png" asso_type="Asso" asso_description="La Junior entreprise" asso_lien_instagram="https://www.instagram.com/jinnov.insa/" asso_lien_site="https://jinnov-insa.fr" asso_line_linkedin=""></AssociationPreview>
+    <AssociationPreview asso_name="Valmev" asso_logo="/img/assos/logo-valmev.png" asso_type="Asso" asso_description="Les mécanos" asso_lien_instagram="https://www.instagram.com/valmev_/" asso_lien_discord="https://discord.gg/acPyAKM57n"></AssociationPreview>
+    <AssociationPreview asso_name="INS'Aerospace" asso_logo="/img/assos/logo-insaerospace.jpg" asso_type="Asso" asso_description="Vers l'infini et l'au-delà" asso_lien_instagram="https://www.instagram.com/insaerospace/" asso_lien_discord="https://discord.gg/k6pjnCYb8h" asso_lien_site="https://insaerospace1.odoo.com/"></AssociationPreview>
+    <AssociationPreview asso_name="Nuit INSA" asso_logo="/img/assos/logo-nuitinsa.webp" asso_type="Asso" asso_description="Soirées et Gala" asso_lien_instagram="https://www.instagram.com/nuit_insa/" asso_lien_site="https://nuitinsa.com"></AssociationPreview>
+    <AssociationPreview asso_name="INSA Je veux, Je peux" asso_logo="/img/assos/logo-insajeveuxjepeux.png" asso_type="Asso" asso_description="Accompagnement, orientation, animation, culture" asso_lien_instagram="https://www.instagram.com/insa_je_veux_je_peux/"></AssociationPreview>
+    <AssociationPreview asso_name="INSA Shop" asso_logo="/img/assos/logo-insashop.jpg" asso_type="Asso" asso_description="Vêtements et Goodies INSA HdF" asso_lien_instagram="https://www.instagram.com/insashop.hdf/" asso_lien_site="https://www.insashop.fr/hauts-de-france/"></AssociationPreview>
+    <AssociationPreview asso_name="BDA - Bureau des Arts" asso_logo="/img/assos/logo-bda.png" asso_type="Asso" asso_description="Bureau des Arts - Musique, Théatre, Cinéma..." asso_lien_instagram="https://www.instagram.com/bda_insa_hdf/"></AssociationPreview>
+    <AssociationPreview asso_name="Bureau de l'Ambiance" asso_logo="/img/assos/logo-bdambiance.png" asso_type="Club" asso_description="Supporters, animation, ambiance" asso_lien_instagram="https://www.instagram.com/insa_je_veux_je_peux/"></AssociationPreview>
+</div>
