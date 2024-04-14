@@ -50,25 +50,33 @@ Pour modifier les informations - logo - photos - liens associés à ton associat
 ## Ajouter une nouvelle association
 Pour ajouter une association, c'est la même procédure! Ouvre une issue en précisant les informations à ajouter et les images à joindre. Les responsables du projet INS'Astuces se chargeront de publier les modifications
 
-**Les informations obligatoires sont :**
+**Informations à fournir**
 - Nom de l'association
 - Logo
-    > **Ratio:** Logo carré <br/>
-    > **Résolution minimale:** 600px x 600px<br/>
-    > **Formats acceptés:** favoriser .svg et .webp  (les autres formats seront convertis en .webp) <br/>
-    > **Note:** Si votre logo a un fond transparent, assurez-vous qu'il soit bine lisible sur un fond noir et un fond blanc (que le logo soit bien adapté aux modes nuit et jour)
 - Statut (club ou asso)
-- Description courte (<= 80 caractères espaces compris) à mettre sur la page [astuces.insahdf.fr/vie-etudiante/assos-et-clubs](https://astuces.insahdf.fr/vie-etudiante/assos-et-clubs)
 - Liens des réseaux à mettre en avant _(conseillé: 2 à 3 liens max)_
+- Description courte _(<= 80 caractères espaces compris) à mettre sur la page [astuces.insahdf.fr/vie-etudiante/assos-et-clubs](https://astuces.insahdf.fr/vie-etudiante/assos-et-clubs)_
+- Description plus détaillée _(<= 250 caractères espaces compris) à mettre sur la page dédiée à l'association_
+- Cover de la page asso (note: l'image de fond est floutée)
 
-    > Par exemple:
+
+    > **Logo**
+    > - **Ratio:** Logo carré <br/>
+    > - **Résolution idéale:** 600px x 600px<br/>
+    > - **Formats acceptés:** favoriser .svg et .webp  (les autres formats seront convertis en .webp) <br/>
+    > - **Note:** Si votre logo a un fond transparent, assurez-vous qu'il soit bine lisible sur un fond noir et un fond blanc (que le logo soit bien adapté aux modes nuit et jour)
+
+    >  **Exemples de liens pertinents**
     >- Site internet
     >- Instagram
     >- Lien d'invitation Discord
+    >- LinkedIn
+    >- Spotify/Deezer...
 
 [Ouvrir une issue pour ajouter une association ou un club](https://github.com/billyTheSecond/INSAstuces/issues/new)
 
-
+## Exemple des aperçus
+![Aperçu de la page des assos](INSAstuces/static/img/insastuces/demo/exemple_grand_apercu.png)
 
 
 
