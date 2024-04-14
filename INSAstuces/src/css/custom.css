@@ -15,6 +15,7 @@
   --ifm-color-primary-lightest: #f3d2d9;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --gradient_over_image_left_text: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0));
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,6 +28,8 @@
   --ifm-color-primary-lighter: #e9a9b5;
   --ifm-color-primary-lightest: #f3d2d9;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --gradient_over_image_left_text: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+
 }
 
 
@@ -79,6 +82,11 @@ a.assos-bouton-lien-reseaux {
   transition-duration: 1s;
 
 }
+a.assos-bouton-lien-reseaux.header {
+  height: 40px;
+  width: 40px;
+}
+
 
 a.assos-bouton-lien-reseaux:hover {
   background-color: var(--ifm-color-primary-dark);
@@ -87,7 +95,20 @@ a.assos-bouton-lien-reseaux:hover {
 }
 
 a.assos-bouton-lien-reseaux img {
-  width: 20px;
-  height: 20px;
+  max-width: 20px;
+  max-height: 20px;
   border-radius: 0px;
+}
+a.assos-bouton-lien-reseaux.header img {
+  max-width: 25px;
+  max-height: 25px;
+
+}
+
+a.div-link {
+  /* lien sans style  */
+  text-decoration: none;
+  color: inherit;
+  display: block;
+
 }
