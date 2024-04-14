@@ -65,7 +65,7 @@
         "asso_logo": "/img/assos/logo-valmev.png",
         "asso_type": "Asso",
         "asso_description_short": "Les mécanos",
-        "asso_description_long": "Association participant à l'Éco-Shell Marathon créée en 1995",
+        "asso_description_long": "Association créée en 1995 participant à l'Éco-Shell Marathon",
         "asso_page_lien": "valmev",
         "asso_lien_instagram": "https://www.instagram.com/valmev_/",
         "asso_lien_discord": "https://discord.gg/acPyAKM57n",
@@ -105,7 +105,7 @@
         "asso_description_long": "Accompagnement 🖋/ Orientation 🧭/ Animation / Ouverture Culturelle 🎭",
         "asso_page_lien": "insa-jeveuxjepeux",
         "asso_lien_instagram": "https://www.instagram.com/insa_je_veux_je_peux/",
-        "asso_image_fond":"/img/Assos/fonds/cover-insa-jeveuxjepeux.jpg"
+        "asso_image_fond":"/img/assos/fonds/cover-insa-jeveuxjepeux.jpg"
 
     },
     {
@@ -147,7 +147,7 @@
         "asso_logo": "/img/assos/logo-bds.png",
         "asso_type": "Club",
         "asso_description_short": "Volley, Rugby, Escalade, Piscine...",
-        "asso_description_long": "",
+        "asso_description_long": "Volley, Rugby, Escalade, Piscine...",
         "asso_page_lien": "bds",
         "asso_lien_instagram": "https://www.instagram.com/bds_insa_hdf/",
         "asso_image_fond":"/img/assos/fonds/cover-bds.jpg"
