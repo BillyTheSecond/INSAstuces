@@ -6,7 +6,7 @@ tags:
 - Mont-Houy
 - Nouvel étudiant
 sidebar_position: 3
-date: 2021-08-31
+date: 2024-04-21
 ---
 
 # Trouve un appartement
@@ -25,6 +25,10 @@ Plusieurs résidences du CROUS sont situées à proximité du Campus Hont-Houy.
 
 
 ## Résidences privées
+- UXCO
+- Studéa
+- Logifac
+- All Suites Study
 
 ## Liens pratiques
 

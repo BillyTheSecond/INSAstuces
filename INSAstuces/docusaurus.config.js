@@ -138,7 +138,7 @@ const config = {
               },
               {
                 label: '🧠 Le Point Culture',
-                to: 'vie-etudiante'
+                to: 'vie-etudiante/le-point-culture'
               },
 
 

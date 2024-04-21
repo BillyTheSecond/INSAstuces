@@ -3,4 +3,4 @@ title: Informatique
 ---
 
 
-# Les conseils du club Info pour maîtriser les outils de l'INSA
+# Les conseils du Club Info pour maîtriser les outils de l'INSA

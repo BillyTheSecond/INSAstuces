@@ -13,17 +13,16 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Maintenu par le Club Info',
+    Svg: require('@site/static/img/assos/logo-insash.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Ce site est régulièrement mis-à-jour par ./insash
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Collaboration inter-associations',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>

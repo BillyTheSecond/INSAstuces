@@ -38,7 +38,7 @@ Les premiers contenus de ce site seront:
 
 
 
-# Je suis une asso, je veux modifier mes infos, ajouter mon asso
+# Ajouter - modifier la page de mon asso
 
 Pour modifier les informations - logo - photos - liens associés à ton association sur INS'Astuces, tu peux ouvrir une issue sur ce dépôt en précisant les modifications à apporter. N'hésite pas à joindre en pièce jointe les logos ou images que tu souhaites modifier ou ajouter.
 
@@ -50,7 +50,7 @@ Pour modifier les informations - logo - photos - liens associés à ton associat
 ## Ajouter une nouvelle association
 Pour ajouter une association, c'est la même procédure! Ouvre une issue en précisant les informations à ajouter et les images à joindre. Les responsables du projet INS'Astuces se chargeront de publier les modifications
 
-**Informations à fournir**
+### Informations à fournir
 - Nom de l'association
 - Logo
 - Statut (club ou asso)
@@ -75,11 +75,14 @@ Pour ajouter une association, c'est la même procédure! Ouvre une issue en pré
 
 [Ouvrir une issue pour ajouter une association ou un club](https://github.com/billyTheSecond/INSAstuces/issues/new)
 
-## Exemple des aperçus
+### Exemple des aperçus
 ![Aperçu de la page des assos](INSAstuces/static/img/insastuces/demo/exemple_grand_apercu.png)
 
 
+## Ajouter un contenu à la page de mon asso
+Chaque asso possède par défaut une page avec une bannière. Il est possible de rajouter du contenu à cette page pour mettre en avant vos activités, vous présenter. Ce site sera principalement consulté par les futurs étudiants, c'est ici que vous pourrez séduire vos futures recrues.
 
+Le contenu de cette page sera écrit en Markdown. Vous ne savez pas ce que c'est ? Pas de soucis! Envoyez nous ce que vous voulez y mettre et on se chergera de le mettre dans le bon format.
 
 
 

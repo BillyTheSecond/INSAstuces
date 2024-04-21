@@ -11,7 +11,11 @@ sidebar_position: 2
 
 ## Consulte tes mails en ligne
 
+Tu peux accéder à ta messagerie en ligne sur le site [mail.uphf.fr](https://mail.uphf.fr)
+
 ## Synchronise tes mails avec une application externe
+
+
 
 ## Un mail en `@insa-hdf.fr` ?
 :::danger[Attention !]

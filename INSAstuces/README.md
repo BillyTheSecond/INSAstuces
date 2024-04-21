@@ -39,3 +39,9 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## Curieux
+Si t'es arrivé juqu'ici, tu dois sûrement être curieux. Alors, voici la technique pour accéder au site: 
+Clique sur ce lien : [insahdf.fr](https://insahdf.fr/jeveuxaccederausiteenversionbeta.php)
+Retourne sur [astuces.insahdf.fr](https://astuces.insahdf.fr)
+
