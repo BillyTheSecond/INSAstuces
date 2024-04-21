@@ -125,6 +125,10 @@ const config = {
             to: '/vie-etudiante/',
             items: [
               {
+                label: '🎏 Vie étudiante',
+                to: 'vie-etudiante' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
+              },
+              {
                 label: '🔔 Le BDE',
                 to: 'vie-etudiante/bde' // 'to' for an internal link, 'href' for an external link with an 'open in a new tab' icon
               },
