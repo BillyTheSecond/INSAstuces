@@ -1,11 +1,11 @@
 ---
-sidebar_label: "Services mis-à-disposition par l'UPHF"
+sidebar_label: "Outils informatiques de l'UPHF"
 sidebar_position: 1
 description: "Liste des sites mis à disposition des étudiants et des chercherus par l'UPHF"
 tags: [Logiciels]
 ---
 
-# Logiciels mis-à-disposition par l'UPHF
+# Outils informatiques de l'UPHF
 
 ## Scolarité
 - [ENT](https://ent.uphf.fr) - Emploi du temps, notes, Moodle, mails

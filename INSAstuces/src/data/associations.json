@@ -154,6 +154,17 @@
 
     },
     {
+        "asso_name": "Valrobotik",
+        "asso_logo": "/img/assos/logo-valrobotik.png",
+        "asso_type": "Asso",
+        "asso_description_short": "Club de Robotique",
+        "asso_description_long": "Club de Robotique - Participation à des challenges",
+        "asso_page_lien": "valrobotik",
+        "asso_lien_instagram": "https://www.instagram.com/valrobotik/",
+        "asso_image_fond":"/img/assos/fonds/cover-valrobotik.jpg"
+
+    },
+    {
         "asso_name": "DELMOO",
         "asso_logo": "/img/assos/logo-delmoo.png",
         "asso_type": "Asso",
@@ -163,17 +174,6 @@
         "asso_lien_instagram": "https://www.instagram.com/delmoo_off/",
         "asso_lien_site": "https://delmoo.fr",
         "asso_image_fond":""
-
-    },
-    {
-        "asso_name": "Valrobotik",
-        "asso_logo": "/img/assos/logo-valrobotik.png",
-        "asso_type": "Asso",
-        "asso_description_short": "Club de Robotique",
-        "asso_description_long": "Club de Robotique - Participation à des challenges",
-        "asso_page_lien": "valrobotik",
-        "asso_lien_instagram": "https://www.instagram.com/valrobotik/",
-        "asso_image_fond":"/img/assos/fonds/cover-valrobotik.jpg"
 
     },
     {

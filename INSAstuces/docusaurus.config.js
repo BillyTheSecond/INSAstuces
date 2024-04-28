@@ -250,7 +250,7 @@ const config = {
               },
               {
                 label: 'Plan du site',
-                to: '/',
+                to: '/plan-du-site',
               }
             ],
           },

@@ -88,7 +88,7 @@ Le contenu de cette page sera écrit en Markdown. Vous ne savez pas ce que c'est
 
 # Développement
 
-Ce site utilise le modèle [Docusaurus](https://docusaurus.io), un projet Open Source de Facebook. Docusaurus peut être utilisé pour faire un blog et des documentations de produits en n'utilisant presque uniquement la syntaxe markdown. (+JS pour les pages). 
+Ce site utilise le modèle [Docusaurus](https://docusaurus.io), un projet Open Source de Facebook. Docusaurus peut être utilisé pour faire un blog et des documentations de produits en utilisant presque uniquement la syntaxe markdown. (+JS pour les pages). 
 
 Pour développer le site, il est nécessaire d'installer nodeJS. Pour la publication, pas besoin de langages particuliers. Le site est transformé en fichiers statiques dans `/build` à coller directement sur l'hébergement.
 

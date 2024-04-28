@@ -124,9 +124,6 @@ const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_l
         </div>
     </div>
 );
-// Je ne sais pas comment créer et importer des composants depuis des fichiers md. 
-// Pour le moment, ils seront créés directement dans les fichiers mdx
-
 export default AssociationHeader;
 
 
