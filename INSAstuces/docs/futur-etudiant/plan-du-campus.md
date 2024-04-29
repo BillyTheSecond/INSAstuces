@@ -6,6 +6,7 @@ tags:
 sidebar_position: 2
 
 ---
+import FileDownloadBox from '@site/src/components/FileDownloadBox';
 
 
 # Campus et repères
@@ -16,6 +17,8 @@ sidebar_position: 2
 ![Plan du campus](/img/campus/plan-du-campus-vue-nord.png)
 <figcaption>Plan du Campus Mont-Houy</figcaption>
 </figure>
+<FileDownloadBox file_link="map/plan-du-campus.pdf" file_name="Plan du campus (PDF)" file_type="pdf"></FileDownloadBox>
+
 
 Les cours de l'INSA Hauts-de-France ne se déroulent pas dans tous les bâtiments du Campus, certains bâtiments sont dédiés aux enseignements de l'INSA! La majorité des **Cours Magistaux** (CM) a lieu dans les bâtiments CLJ3 (Claudin Lejeune 3) et en AB1 (Abel de Pujol 1). Ces deux bâtiments sont à proximité de l'arrêt de tram "Moriamez Recherche". Les **Travaux Dirigés** (TD) ont lieu en AB1, Herbin, AB2 ou Carpeaux et les **Travaux Pratiques** (TP) se déroulent généralement en AB3, CLJ1 ou Herbin. 
 
