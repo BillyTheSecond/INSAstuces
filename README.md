@@ -85,6 +85,14 @@ Chaque asso possède par défaut une page avec une bannière. Il est possible de
 Le contenu de cette page sera écrit en Markdown. Vous ne savez pas ce que c'est ? Pas de soucis! Envoyez nous ce que vous voulez y mettre et on se chergera de le mettre dans le bon format.
 
 
+# Aperçus des pages
+
+![Aperçu de la page d'accueil](readmefiles/apercu-site.png)
+
+![Apercu page plan campus](readmefiles/apercu-plan-campus.png)
+
+
+
 
 # Développement
 
