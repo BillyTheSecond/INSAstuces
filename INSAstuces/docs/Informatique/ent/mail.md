@@ -49,7 +49,7 @@ Pour cela, suis les étapes suivantes :
 
 ### Dans Apple Mail
 - Va dans `Paramètres`> `Mail` > `Comptes`> `Ajouter un compte`> `Autre`> `Ajouter un compte Mail`
-- Saissiez votre nom, votre adresse uphf (`prenom.nom@uphf.fr`) et le mot de passe
+- Saisissez votre nom, votre adresse uphf (`prenom.nom@uphf.fr`) et le mot de passe
 - Remplis les champs avec les informations de l'encadré bleu
 
 

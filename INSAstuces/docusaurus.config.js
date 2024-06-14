@@ -176,7 +176,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            to: 'https://insash.fr',
+            to: 'https://insash.org',
             label: './insa.sh',
             position: 'right',
           },
@@ -233,8 +233,13 @@ const config = {
             items: [
               {
                 label: 'CLUB INFO - ./insa.sh',
-                href: 'https://insash.fr',
+                href: 'https://insash.org',
               },
+              {
+                label: 'BDE INSA HdF',
+                href: 'https://sites.google.com/view/bde-insahdf',
+              },
+              
               {
                 label: 'GitHub',
                 href: 'https://github.com/billyTheSecond/INSAstuces',
@@ -263,7 +268,7 @@ const config = {
               },
               {
                 label: 'INS\'Alumnis HdF',
-                href: 'http://insalumni.insash.fr',
+                href: 'http://insalumni.insash.org',
               },
               {
                 label: 'Groupe INSA',
@@ -276,7 +281,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Développé et maintenu avec amour par <b><a href='https://insash.fr'>./insa.sh</a></b> – INS'Astuces Hauts-de-France © ${new Date().getFullYear()} ` ,
+        copyright: `Développé et maintenu avec amour par <b><a href='https://insash.org'>./insa.sh</a></b> – INS'Astuces Hauts-de-France © ${new Date().getFullYear()} ` ,
       },
       prism: {
         theme: prismThemes.github,
