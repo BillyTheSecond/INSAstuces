@@ -45,3 +45,41 @@ Si t'es arrivé juqu'ici, tu dois sûrement être curieux. Alors, voici la techn
 Clique sur ce lien : [insahdf.fr](https://insahdf.fr/jeveuxaccederausiteenversionbeta.php)
 Retourne sur [astuces.insahdf.fr](https://astuces.insahdf.fr)
 
+
+# Développement
+
+Ce site utilise le modèle [Docusaurus](https://docusaurus.io), un projet Open Source de Facebook. Docusaurus peut être utilisé pour faire un blog et des documentations de produits en utilisant presque uniquement la syntaxe markdown. (+JS pour les pages). 
+
+Pour développer le site, il est nécessaire d'installer nodeJS. Pour la publication, pas besoin de langages particuliers. Le site est transformé en fichiers statiques dans `/build` à coller directement sur l'hébergement.
+
+## Prérequis pour développer le site
+
+- Node.js (avec npm)
+
+## Initialiser un site docusaurus
+
+
+```bash 
+    npm init docusaurus
+```
+
+## Lancer le site
+    
+### Lancer le site en local sur une machine
+```bash
+    npm run start
+```
+Le site sera accessible à l'adresse [http://localhost:3000](http://localhost:3000)
+
+### Lancer le site sur un réseau local
+
+```bash
+    npm run start -- --port 80 --host 0.0.0.0
+    # En remplaçant 0.0.0.0 par l'adresse IP de la machine
+```
+
+## Pour déployer le projet
+
+-> Lancer la commande `npm run build`
+
+-> Copier le contenu du dossier `build` dans le dossier source du site web et le site static sera ok

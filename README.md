@@ -8,9 +8,11 @@ _L'objectif est de créer un site web simple maintenu par les étudiants pour le
 <br>
 
 > **Note :**<br>
-> Le site n'est pas accessible à tous pour le moment
+> Le site n'est accessible qu'en pré-version pour le moment.
 
 <br>
+
+## Contenu du site
 
 Les premiers contenus de ce site seront:
 - Un guide pour les futurs étudiants
@@ -36,21 +38,32 @@ Les premiers contenus de ce site seront:
 
 
 
+<br>
+
+# Les pages des association
+Chaque association possède sa propre page sur INS'Astuces. Vous pouvez **personnaliser la page de votre asso** en changeant le logo, l'image d'arrière-plan, la description ou encore les liens affichés... 
+
+Vous pouvez aussi créer une page complète pour présenter votre association, ses activités, ses membres, ses évènements... (au format markdown)
+
+![Aperçu de la pages des associations et clubs](readmefiles/apercu-page-assos.png)
 
 
-# Ajouter - modifier la page de mon asso
+## Ajouter - modifier la page de mon asso
 
-Pour modifier les informations - logo - photos - liens associés à ton association sur INS'Astuces, tu peux ouvrir une issue sur ce dépôt en précisant les modifications à apporter. N'hésite pas à joindre en pièce jointe les logos ou images que tu souhaites modifier ou ajouter.
+Pour modifier les informations - logo - photos - liens associés à votre asso, `ouvrez une issue` sur ce dépôt en précisant les modifications à apporter. N'hésitez pas à joindre en pièce jointe les logos ou images que vous souhaitez modifier ou ajouter.
 
-[Ouvrir une issue](https://github.com/billyTheSecond/INSAstuces/issues/new)
+[> Demander une modification [ouvrir une issue]](https://github.com/billyTheSecond/INSAstuces/issues/new)
 
 > **Note :**<br>
-> Si tu souhaites demander une modification en privé, tu peux contacter directement un des contributeurs du projet.
+> Si vous ne voulez pas demander publiquement une modification, vous pouvez contacter directement un des contributeurs du projet.
 
-## Ajouter une nouvelle association
-Pour ajouter une association, c'est la même procédure! Ouvre une issue en précisant les informations à ajouter et les images à joindre. Les responsables du projet INS'Astuces se chargeront de publier les modifications
+## Ajouter une nouvelle Asso
+Pour ajouter une association, c'est la même procédure! Ouvrez une issue `en précisant les informations indiquées ci-dessous` et les images à joindre. Les responsables du projet INS'Astuces se chargeront de publier les modifications !
 
-### Informations à fournir
+[Ouvrir une issue pour ajouter une association ou un club](https://github.com/billyTheSecond/INSAstuces/issues/new)
+
+
+**Informations à fournir**
 - Nom de l'association
 - Logo
 - Statut (club ou asso)
@@ -73,16 +86,15 @@ Pour ajouter une association, c'est la même procédure! Ouvre une issue en pré
     >- LinkedIn
     >- Spotify/Deezer...
 
-[Ouvrir une issue pour ajouter une association ou un club](https://github.com/billyTheSecond/INSAstuces/issues/new)
 
 ### Exemple des aperçus
 ![Aperçu de la page des assos](INSAstuces/static/img/insastuces/demo/exemple_grand_apercu.png)
 
 
-## Ajouter un contenu à la page de mon asso
+### Ajouter du contenu à la page de mon asso
 Chaque asso possède par défaut une page avec une bannière. Il est possible de rajouter du contenu à cette page pour mettre en avant vos activités, vous présenter. Ce site sera principalement consulté par les futurs étudiants, c'est ici que vous pourrez séduire vos futures recrues.
 
-Le contenu de cette page sera écrit en Markdown. Vous ne savez pas ce que c'est ? Pas de soucis! Envoyez nous ce que vous voulez y mettre et on se chergera de le mettre dans le bon format.
+Le contenu de cette page sera écrit en `Markdown`. Vous ne savez pas ce que c'est ? Pas de soucis! Envoyez-nous ce que vous voulez y mettre et on se chergera de le mettre dans le bon format.
 
 
 # Aperçus des pages
@@ -92,47 +104,12 @@ Le contenu de cette page sera écrit en Markdown. Vous ne savez pas ce que c'est
 ![Apercu page plan campus](readmefiles/apercu-plan-campus.png)
 
 
+# Rejoindre le projet
+Tu veux faire partie du projet ? Passe nous voir au Club info ou rejoins notre Discord pour en discuter !
 
 
 # Développement
-
-Ce site utilise le modèle [Docusaurus](https://docusaurus.io), un projet Open Source de Facebook. Docusaurus peut être utilisé pour faire un blog et des documentations de produits en utilisant presque uniquement la syntaxe markdown. (+JS pour les pages). 
-
-Pour développer le site, il est nécessaire d'installer nodeJS. Pour la publication, pas besoin de langages particuliers. Le site est transformé en fichiers statiques dans `/build` à coller directement sur l'hébergement.
-
-## Prérequis pour développer le site
-
-- Node.js (avec npm)
-
-## Initialiser un site docusaurus
-
-
-```bash 
-    npm init docusaurus
-```
-
-## Lancer le site
-    
-### Lancer le site en local sur une machine
-```bash
-    npm run start
-```
-Le site sera accessible à l'adresse [http://localhost:3000](http://localhost:3000)
-
-### Lancer le site sur un réseau local
-
-```bash
-    npm run start -- --port 80 --host 0.0.0.0
-    # En remplaçant 0.0.0.0 par l'adresse IP de la machine
-```
-
-## Pour déployer le projet
-
--> Lancer la commande `npm run build`
-
--> Copier le contenu du dossier `build` dans le dossier source du site web et le site static sera ok
-
-
+Plus d'informations sur : [Développement](INSAstuces/README.md)
 
 
 > Inspirations : [WikiEtud INSA Toulouse](https://wiki.etud.insa-toulouse.fr/)
