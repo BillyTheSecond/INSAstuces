@@ -1,10 +1,11 @@
 // Bouton qui point vers les réseaux sociaux
 export const BoutonReseauHeader = ({ titre, lien, nom_icon, }) => (
 
-    <a class="assos-bouton-lien-reseaux header" href={lien}>
+    <a class="assos-bouton-lien-reseaux header" href={lien} target="_blank">
         <img
             src={`/img/icons/${nom_icon}.svg`}
             alt={`Lien vers ${titre}`}
+             
         />
     </a>
 
@@ -47,7 +48,7 @@ const styles = {
   
 
 {/* Boite d'association */ }
-const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_long, asso_page_lien, asso_image_fond, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify }) => (
+const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_long, asso_image_fond, asso_lien_instagram, asso_lien_site, asso_lien_discord, asso_lien_linkedin, asso_lien_spotify, asso_lien_github }) => (
     <div
     style ={{
         backgroundImage: `url(${asso_image_fond})`,
@@ -56,6 +57,7 @@ const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_l
         backgroundRepeat: 'no-repeat',
         borderRadius: '8px',
         overflow: 'hidden',
+        marginBottom: '2em',
         
 
     }}>
@@ -113,6 +115,9 @@ const AssociationHeader = ({ asso_name, asso_logo, asso_type, asso_description_l
                     )}
                     {asso_lien_spotify && (
                         <BoutonReseauHeader titre="Lien vers Spotify" nom_icon="spotify" lien={asso_lien_spotify} />
+                    )}
+                    {asso_lien_github && (
+                        <BoutonReseauHeader titre="Lien vers GitHub" nom_icon="github" lien={asso_lien_github} />
                     )}
 
                 </div>

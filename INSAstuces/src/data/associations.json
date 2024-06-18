@@ -1,7 +1,7 @@
 [
     {
         "asso_name": "./insa.sh",
-        "asso_logo": "/img/assos/logo-insash.png",
+        "asso_logo": "/img/assos/logo-insash.svg",
         "asso_type": "Club",
         "asso_description_short": "Le Club Info de l'INSA HdF",
         "asso_description_long": "Club Info de l'INSA Hauts-de-France - Evénements, formations, projets...",
@@ -9,7 +9,8 @@
         "asso_lien_instagram": "https://www.instagram.com/hdf_insa.sh",
         "asso_lien_site": "https://insash.org",
         "asso_lien_linkedin": "https://www.linkedin.com/company/insa-sh/",
-        "asso_image_fond":"/img/assos/fonds/cover-insash.png"
+        "asso_lien_github" : "https://github.com/insa-sh/",
+        "asso_image_fond":"/img/assos/fonds/cover-insash.svg"
 
     },
     {
